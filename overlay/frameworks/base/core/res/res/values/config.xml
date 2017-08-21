@@ -28,7 +28,7 @@
 
     <!-- The default iface on which to monitor data use -->
     <string name="config_datause_iface">rmnet0</string>
-    
+
     <!-- An Array of "[ConnectivityManager connectionType],
          [# simultaneous connection types]"  -->
     <string-array name="radioAttributes">
@@ -52,12 +52,8 @@
     <!-- Common options are [1, 4] for TYPE_WIFI and TYPE_MOBILE_DUN or
     <!== [0,1,5,7] for TYPE_MOBILE, TYPE_WIFI, TYPE_MOBILE_HIPRI and TYPE_BLUETOOTH -->
     <integer-array name="config_tether_upstream_types">
-        <item>0</item>
         <item>1</item>
-        <item>4</item>
-        <item>5</item>
         <item>7</item>
-        <item>9</item>
     </integer-array>
 
     <!-- Control the behavior when the user long presses the home button.
@@ -68,9 +64,8 @@
             4 - Voice Search
             5 - In-app Search
          This needs to match the constants in
-         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
-    -->
-    <integer name="config_longPressOnHomeBehavior">2</integer>
+         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java    -->
+    <integer name="config_longPressOnHomeBehavior">3</integer>
 
     <!-- Control the behavior when the user double-taps the home button.
             0 - Nothing
@@ -80,7 +75,7 @@
             4 - Voice Search
             5 - In-app Search
          This needs to match the constants in
-         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java
-    -->
-    <integer name="config_doubleTapOnHomeBehavior">2</integer>
+         policy/src/com/android/internal/policy/impl/PhoneWindowManager.java    -->
+    <integer name="config_doubleTapOnHomeBehavior">0</integer>
+
 </resources>
