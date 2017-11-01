@@ -24,6 +24,9 @@ TARGET_KERNEL_CONFIG := lineageos_n5110_defconfig
 
 TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 
+# BLN
+BOARD_HAS_BLN := true
+
 # Recovery
 TARGET_RECOVERY_FSTAB := device/samsung/kona-common/rootdir/fstab.smdk4x12
 RECOVERY_FSTAB_VERSION := 2
