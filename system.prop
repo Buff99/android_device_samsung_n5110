@@ -8,3 +8,5 @@ ro.sf.hwrotation=270
 ro.sf.lcd_density=213
 ro.hdcp2.rx=tz
 ro.egl.destroy_after_detach=true
+
+persist.sys.isUsbOtgEnabled=false
