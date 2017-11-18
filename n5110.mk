@@ -24,7 +24,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.radio.noril=yes
 
 # ADB
-ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.usb.config=mtp,adb
+# ADDITIONAL_DEFAULT_PROPERTIES += persist.sys.usb.config=mtp,adb
 #    ro.debug_level=0x4948 \
 #    ro.adb.secure=0 \
 #    ro.secure=0 \
