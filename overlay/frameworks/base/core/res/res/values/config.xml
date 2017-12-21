@@ -78,10 +78,4 @@
          policy/src/com/android/internal/policy/impl/PhoneWindowManager.java    -->
     <integer name="config_doubleTapOnHomeBehavior">0</integer>
 
-    <!-- Enable LED settings -->
-    <bool name="config_intrusiveNotificationLed">true</bool>
-
-    <!-- Enable button brightness -->
-    <bool name="config_deviceHasVariableButtonBrightness">true</bool>
-
 </resources>
